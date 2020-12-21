@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="ticTacToe.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Tic Tac Toe</h1>
+        <!-- restart game button -->
+        <button onClick="window.location.reload();" class="btn btn-primary">Reset Game</button>
+
+        <p>Click a box for X, double click for O.</p>
+
+      </div>
+    </div>
+
+
+    <div id="board" class="container">
+      <table class="table">
+
+
+        <!-- 1-9 each table cell to be clicked -->
+        <tr>
+          <td id="one" style="text-align: center; vertical-align: middle;"></td>
+          <td id="two" style="text-align: center; vertical-align: middle;"></td>
+          <td id="three" style="text-align: center; vertical-align: middle;"></td>
+        </tr>
+        <tr>
+          <td id="four" style="text-align: center; vertical-align: middle;"></td>
+          <td id="five" style="text-align: center; vertical-align: middle;"></td>
+          <td id="six" style="text-align: center; vertical-align: middle;"></td>
+        </tr>
+        <tr>
+          <td id="seven" style="text-align: center; vertical-align: middle;"></td>
+          <td id="eight" style="text-align: center; vertical-align: middle;"></td>
+          <td id="nine" style="text-align: center; vertical-align: middle;"></td>
+        </tr>
+      </table>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+  </body>
+  <script src="ticTacToe.js"></script>
+</html>

@@ -1,0 +1,26 @@
+td{
+  border: 1px solid black;
+  table-layout: fixed;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+  font-size: 50px;
+}
+td.content{
+  position: absolute;
+}
+
+td:hover{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFq9CQK8UpxwqCH-rTZQeL-cV73nFUtuqlFQ&usqp=CAU");
+  background-position: center;
+  background-size: auto;
+  color: white;
+}
+
+.jumbotron{
+  line-height: 1.7em;
+  text-align: center;
+}
+
+/* background images */
